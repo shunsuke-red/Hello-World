@@ -1,0 +1,58 @@
+プロジェクト・タイトル
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+ここにプロジェクトの概要を書く。
+行末にスペースを二つ入れると
+改行される。
+
+段落を分けるには、[空行](http://example.com/)を入れる。
+
+使い方
+——-
+### インライン ###
+インラインのコードは、**バッククォート**(`` ` ``)で囲む。
+
+## ブロックレベル ##
+	function f (){
+		alert(0); /* 先頭に四文字のスペース、
+				もしくはタブを挿入する */
+	}
+
+パラメータの解説
+————————————
+リストの間に空行を挟むと、それぞれのリストに`<p>`タグが挿入され、行間が
+広くなる。
+
+	def MyFunction(param1,param2, …)
+
++   `param1`:
+	_パラメータ１_の説明
+
++   `param2`:
+	_パラメータ２_の説明
+
+関連情報
+—————————
+### リンク、ネストしたリスト
+1.[リンク１](http://example.com/ “リンクのタイトル”)
+	* ![画像１](http://github.com/unicorn.png”画像のタイトル”)
+2.[リンク２][link]
+	-[![画像２][image]](https://github.com/)
+
+	[link]: http://example.com/“インデックス型のリンク”
+	[image]: http://github.com/github.png “インデックス型の画像”
+### 引用、ネストした引用
+>引用
+>
+>>スペースを挟んで`>`を重ねると、引用の中で引用ができるが、
+>>githubの場合、	１行前に空の引用がないと、正しくマークアップされない。
+
+ライセンス
+——————
+Copyright &copy; 2011 xxxxxx
+Licensed under the [Apache License, Version 2.0][Apache]
+Distributed under the [MIT License][mit].
+Dual licensed under the [MIT license][MIT] and [GPL license][GPL].
+ 
+[Apache]: http://www.apache.org/licenses/LICENSE-2.0
+[MIT]: http://www.opensource.org/licenses/mit-license.php
+[GPL]: http://www.gnu.org/licenses/gpl.html
